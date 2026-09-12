@@ -1,0 +1,35 @@
+.rodape{
+  background:#1b3320;
+  color: #ede9dc;
+  padding: 25px 40px;
+}
+.rodape-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rodape-topo strong{
+  font-size: 15px;
+  color: #fff;
+}
+.rodape-topo nav{
+  display: flex;
+  gap: 20px;
+}
+.rodape-topo nav a{
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 13px;
+}
+.rodape-topo nav a:hover{
+  color: #fff;
+}
+.rodape-linha{
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 18px;
+}
+.rodape-copy{
+  font-size: 11px;
+  color: #a8a8a8;
+}

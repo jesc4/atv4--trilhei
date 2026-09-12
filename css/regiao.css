@@ -1,0 +1,36 @@
+.explore-regiao{
+  background: #ede9de;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+ / box-sizing: border-box;
+  margin-top: 30px;
+}
+.explore-regiao h2{
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+.explore-regiao p{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 22px;
+  max-width: 400px;
+}
+.botoes-regiao {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.botoes-regiao button {
+  background: white;
+  border: 1px solid#eee;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

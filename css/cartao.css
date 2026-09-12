@@ -1,0 +1,97 @@
+.trilhas-destaque {
+  padding: 50px;
+  background: #fafaf7;
+}
+.trilhas-destaque h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+.trilhas-destaque .sub {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.lista-cartoes {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cartao {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 12px;
+}
+.cartao:hover {
+  transform: translateY(-4px);
+}
+.imagem1,
+.imagem2,
+.imagem3 {
+  height: 190px;
+  overflow: hidden;
+  background: #eee;
+}
+.imagem1 img,
+.imagem2 img,
+.imagem3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info1,
+.info2,
+.info3 {
+  padding: 12px 16px 20 px 16px;
+  height: auto;
+  overflow: visible;
+}
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.tag.verde {
+  background: #6cf38b;
+  color: #155724;
+}
+.tag.vermelha {
+  background: #f15e6a;
+  color: #721c24;
+}
+.tag.laranja {
+  background: #f7a15b;
+  color: #856404;
+}
+.info1 h3,
+.info2 h3,
+.info3 h3 {
+  font-size: 16px;
+  margin: 8px 0 4px 0;
+}
+.info1 p,
+.info2 p,
+.info3 p {
+  font-size: 12px;
+  color: #777;
+  line-height: 1.4;
+}
+.detalhes {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.detalhes span {
+  font-size: 11px;
+  background: #f5f5f0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #757575;
+}

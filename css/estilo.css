@@ -1,0 +1,110 @@
+@import url(corpo.css);
+@import url(cartao.css);
+@import url(regiao.css);
+@import url(info.css);
+@import url(rodape.css);
+html{
+  scroll-behavior: smooth;
+}
+.fundo {
+  background: #1c3320;
+  background: linear-gradient(135deg, #1a2e1e 0%, #2d4a22 100%);
+  color: white;
+  min-height: 80vh;
+  padding: 20px 50px;
+  border-radius: 0 0 10px 10px;
+}
+.botao-topo{
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  white-space: nowrap;
+  display: inline-block;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li a{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.9;
+}
+header nav ul li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.botao-topo {
+  border: 1px solid white;
+  padding: 8px 15 px;
+  border-radius: 20px;
+}
+.hero {
+  margin-top: 80px;
+  max-width: 600px;
+}
+.subtitulo {
+  color: #f5a623;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.descricao {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.busca {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 30px;
+  width: 400px;
+}
+.busca input {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  outline: none;
+  color: #333;
+  min-width: 0;
+}
+.busca button {
+  background: #be7807;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

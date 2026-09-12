@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Pé na serra</title>
+  <link rel="icon" type="image/png" href="img/trilha.png">
+</head>
+
+<body>
+  <!--Fundo verde do topo-->
+  <div class="fundo">
+    <!--Cabeçalho com a logo e menu-->
+    <header>
+      <div class="logo">
+        <img src="img/montanha.png" alt="Logo">
+        <span>PÉ NA SERRA</span>
+      </div>
+      <!-- Menu navegação-->
+      <nav>
+        <ul>
+          <li> <a href="#trilhas">Trilhas</a></li>
+          <li> <a href="#regioes">Região</a></li>
+          <li> <a href="#como-funciona">Como funciona</a></li>
+          <li> <a href="#sobre">Sobre</a></li>
+          <li><a href="rodape"></a></li>
+        </ul>
+      </nav>
+      <a href="#trilhas" class="botao-topo">Ver todas as trilhas</a>
+    </header>
+    <!--Capa principal, onde está o fundo verde-->
+    <main class="hero">
+      <p class="subtitulo">Guia de Trilhas de Minas Gerais</p>
+      <h1>Minas tem Serra, cachoeira e caminho para todo tipo de trilheiro.</h1>
+      <p class="descricao">
+        Um catálogo com distância, dificuldade e pontos de interesse de cada trilha.
+      </p>
+      <div class="busca"> <!--Barra de pesquisa-->
+        <input type="text" placeholder="Busque por trilha, cidade ou região.">
+        <button>Buscar</button>
+      </div>
+    </main>
+  </div>
+  <section id="trilhas" class="trilhas-destaque">
+    <!--Três cartões principais-->
+    <h2>Trilhas em Destaque</h2>
+    <p class="sub">Uma Seleção para começar, das mais tranquilas ás que pedem preparo.</p>
+    <div class="lista-cartoes">
+      <!--Cartão 1-->
+      <div class="cartao">
+        <div class="imagem1">
+          <img src="img/CACHOEIRA-DA-FAROFA.jpg" alt="cachoeira da farofa">
+        </div>
+        <div class="info-1">
+          <span class="tag laranja">Moderada</span>
+          <h3>Cachoeira da Farofa </h3>
+          <p>São Roque de Minas - Serra da Canastra</p>
+          <div class="detalhes">
+            <span>6km</span>
+            <span>4h</span>
+            <span>Cachoeira</span>
+          </div>
+        </div>
+      </div>
+      <!--Cartão 2-->
+      <div class="cartao">
+        <div class="imagem2">
+          <img src="img/pico-da-bandeira.jpg" alt="Pico da Bandeira">
+        </div>
+        <div class="info-2">
+          <span class="tag vermelha">Dificil</span>
+          <h3>Pico da Bandeira </h3>
+          <p>Alto Caparaó - Serra do Caparaó</p>
+          <div class="detalhes">
+            <span>12km</span>
+            <span>7h</span>
+            <span>Mirante</span>
+          </div>
+        </div>
+      </div>
+      <!--Cartão 3-->
+      <div class="cartao">
+        <div class="imagem3">
+          <img src="img/tabuleiro.jpg" alt="cachoeira do tabuleiro">
+        </div>
+        <div class="info-3">
+          <span class="tag verde">Facil</span>
+          <h3>Cachoeira do Tabuleiro </h3>
+          <p>Conceição do Mato Dentro - Serra do Cipó</p>
+          <div class="detalhes">
+            <span>7,2km</span>
+            <span>3h30</span>
+            <span>Cachoeira</span>
+          </div>
+        </div>
+      </div> <!--Fecha lista de Cartãoes-->
+  </section>
+  <!--Explore por região-->
+  <section id="regioes" class="explore-regiao">
+    <h2>Explore por região</h2>
+    <p>Cada região de minas tem um tipo de trilha diferente para oferecer.</p>
+    <div class="botoes-regiao">
+      <button>Serra do Cipó</button>
+      <button>Serra do Caparaó</button>
+      <button>Serra da Canastra</button>
+    </div>
+  </section>
+  <!--Como funciona-->
+  <section id="como-funciona" class="como-funciona">
+    <h2>Como funciona o guia</h2>
+    <p class="subt">Três passos entre a vontade de sair de casa e o pé na trilha.</p>
+    <div class="passos">
+      <div class="passo">
+        <span>01</span>
+        <h3>Descubra</h3>
+        <p>Filtre trilhas por região, distância e dificuldade ate achar a que combina com o seu preparo.</p>
+      </div>
+      <div class="passo">
+        <span>02</span>
+        <h3>Prepare-se</h3>
+        <p>Veja os pontos de interesse no caminho — cachoeira, mirante, gruta — e o que levar pra cada um.</p>
+      </div>
+      <div class="passo">
+        <span>03</span>
+        <h3>Vá com confiança</h3>
+        <p>Duração estimada, nível de dificuldade e acesso: informação pra decidir com a cabeça, não só com a foto.</p>
+      </div>
+    </div>
+  </section>
+</body>
+<!--Rodape-->
+<footer class="rodape">
+  <div class="rodape-topo">
+    <strong>Pegadas Gerais</strong>
+    <nav>
+      <a href="#trilhas">Trilhas</a>
+      <a href="#regioes">Regiões</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+<div class="rodape-linha"></div>
+<p class="rodape-copy">© 2026 Pegadas Gerais.Guia independente de trilhas de Minas Gerais.</p>
+</footer>
+
+</html>
